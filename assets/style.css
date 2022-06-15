@@ -1,0 +1,36 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: inline;
+    z-index: 2;
+}
+
+body {
+    z-index: 0;
+    background-color: lightcyan;
+}
+
+#h1 {
+    padding: 0px;
+    color: orange;
+    z-index: 1;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: inline-end;
+    display: inline;
+}

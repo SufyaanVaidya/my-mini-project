@@ -13,11 +13,9 @@
     <body>
         <header>
 
-            <h1>My Landing Page</h1>
+        <h1 id="h1">My Landing Page</h1>
 
-            <nav>
-
-                <ul>
+                <ul id="ul">
 
                     <li>
                         <a href="#">Email</a>
@@ -31,56 +29,47 @@
                 
                 </ul>
 
-            </nav>
-
         </header>
 
+        <main>
             <figure>
 
-                <img src="./assets/images/projectphoto.jpg" alt="Taj Mahal" style="width: 500px;">
+                <img src="https://via.placeholder.com/500" alt="Taj Mahal">
                 <figcaption>Taj Mahal in Agra, India</figcaption>
 
             </figure>
-
-
-        <br/>
-
-        
-        <section>
-
-            <form>
-
-                <fieldset>
-
-                  <legend>Your Contact Information</legend>
-                  <p>
+            <form id="contact-info">
+                
                     
                     <label for="name">Name-</label>
-                    <input type="text" name="your_name" id="name">
+                    <input type="text" name="your_name" id="name" placeholder="Your Name">
                     
-                  </p>
+                    <br>
+                  
+                    <label for="phone">Phone-</label>
+                    <input type="text" name="your_number" id="phone" placeholder="Your Number">
 
-                  <p>
+                    <br>
 
-                    <label for="phone">Telephone-</label>
-                    <input type="text" name="your_number" id="phone">
+                    <label for="email">Email-</label>
+                    <input type="text" name="your_email" id="email" placeholder="Your Email">
 
-                  </p>
+                    <br>
 
-                  <p>
+                    <input type="button" value="submit">
 
-                    <label for="email">email-</label>
-                    <input type="text" name="your_email" id="email">
-
-                  </p>
-
-                </fieldset>
 
               </form>
 
-        </section>
+        </main>
 
     </body>
+
+        <footer>
+
+            <h2>Thank you for visiting. We will be sure to reach out!</h2>
+        
+        </footer>
 
 
     
