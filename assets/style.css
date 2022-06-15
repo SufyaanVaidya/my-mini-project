@@ -2,6 +2,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 5px solid red;
 }
 
 header {
@@ -20,6 +21,7 @@ body {
     padding: 0px;
     color: orange;
     z-index: 1;
+    border: 5px solid red;
 }
 
 * {
